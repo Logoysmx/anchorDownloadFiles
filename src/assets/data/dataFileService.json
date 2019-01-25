@@ -1,0 +1,29 @@
+/*
+Este archivo simula la respuesta de un servicio
+
+Se recomienda 
+Sanitizar el nombre de los archivos quitando acentos, tildes, caracteres extraños y espacios en blanco.
+Validar los archivos antes de guardarlos en la base de datos, validano su mime type y no usando la extension del archivo
+*/
+[
+	{
+		"id": 1,
+		"fileName": "151217-JOYERIA-WEB_STORE.pdf",
+		"path": "2018-22-01" 
+	},
+	{
+		"id": 2,
+		"fileName": "archivo.pdf",
+		"path": "2018-23-01" 
+	},
+	{
+		"id": 3,
+		"fileName": "archivo.pdf",
+		"path": "2018-24-01" 
+	},
+	{
+		"id": 4,
+		"fileName": "archivo.pdf",
+		"path": "2018-25-01" 
+	}			
+]
