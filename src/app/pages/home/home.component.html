@@ -2,7 +2,7 @@
 	<h1>Files</h1>
 	<ul>
 		<li *ngFor="let file of files">
-			<a href="http://localhost:4200/assets/uploads/{{file.path}}/{{ file.fileName }}" target="_blank">{{ file.fileName }}</a>
+			<a href="{{ baseApiUrlDownload }}/{{ file.path }}/{{ file.fileName }}" target="_blank" title="{{ file.description }}">{{ file.fileName }}</a>
 		</li>
 	</ul>
 </div>
