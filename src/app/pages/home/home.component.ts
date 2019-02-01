@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+
+
 import { FileInfo } from './file-info';
 
+//El servicio que solo se encarga de enviar el array de objectos disponibles
 import { DataService } from './services/data.service';
 
 //Una manera de mantener valores y usarlos en los componentes que lo requieran
@@ -23,7 +26,8 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
   	this.dataService.getFiles().subscribe(resp => {
-  		this.files = resp.slice(0, this.filesLimit);  		
+  		//this.files = resp.slice(0, this.filesLimit);  		
+      this.files = resp;      
   	});  	
   }
 
