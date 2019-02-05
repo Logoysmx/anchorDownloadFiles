@@ -18,7 +18,7 @@ import { Environment } from '../../globals';
 export class HomeComponent implements OnInit {
 
 	dataFiles: FileInfo;
-	filesLimit = 10;
+	filesLimit = 2;
 	files: any[];
   private baseApiUrlDownload = Environment.BASE_API_URL + Environment.UPLOAD_BASE_FOLDER;
 
@@ -26,8 +26,9 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
   	this.dataService.getFiles().subscribe(resp => {
-  		//this.files = resp.slice(0, this.filesLimit);  		
-      this.files = resp;      
+  		this.files = resp.slice(0, this.filesLimit);  		
+      // this.files = resp;      
+      console.log(this.files);
   	});  	
   }
 
