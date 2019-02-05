@@ -3,24 +3,28 @@
 		"id": 1,
 		"fileName": "pdf_file.pdf",
 		"path": "2018-22-01",
-		"description": "Description PDF"
+		"description": "Description PDF",
+		"absolutePath": "c:/foo/app_folder/Description/pdf_file.pdf"
 	},
 	{
 		"id": 2,
 		"fileName": "example1.xlsx",
 		"path": "2018-23-01",
-		"description": "Description example1" 
+		"description": "Description example1",
+		"absolutePath": "c:/foo/app_folder/Description/example1.xlsx"
 	},
 	{
 		"id": 3,
 		"fileName": "example2.xlsx",
 		"path": "2018-24-01",
-		"description": "Description example2" 
+		"description": "Description example2",
+		"absolutePath": "c:/foo/app_folder/Description/example2.xlsx" 
 	},
 	{
 		"id": 4,
 		"fileName": "example3.xlsx",
 		"path": "2018-25-01",
-		"description": "Description example3" 
+		"description": "Description example3",
+		"absolutePath": "c:/foo/app_folder/Description/example3.xlsx"
 	}			
 ]
